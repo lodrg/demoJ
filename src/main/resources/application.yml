@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    org.babyfish.jimmer: debug
