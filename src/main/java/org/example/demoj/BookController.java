@@ -1,7 +1,6 @@
 package org.example.demoj;
 
 import org.example.demoj.Book;
-import org.example.demoj.BookDraft;  // 这个类会由 Jimmer 自动生成
 import org.example.demoj.BookRepository;
 import org.springframework.web.bind.annotation.*;
 
